@@ -1,0 +1,20 @@
+{
+  "config": {
+    "vendor-dir": "src/vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dbb\\": "src/project/fbFL/app",
+      "Dbb\\Facebook\\": "src/project/fbFL/app/Facebook",
+      "Dbb\\Data\\": "src/project/fbFL/data"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "phpunit/phpunit": ">=6.2.0",
+    "facebook/graph-sdk": "^5.6",
+    "smarty/smarty": ">=3.1.19"
+  },
+  "require-dev": {
+  }
+}
