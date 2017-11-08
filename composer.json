@@ -5,6 +5,7 @@
   "autoload": {
     "psr-4": {
       "Dbb\\": "src/project/fbFL/app",
+      "Dbb\\AbstractClasses\\": "src/project/fbFL/app/Abstract",
       "Dbb\\Facebook\\": "src/project/fbFL/app/Facebook",
       "Dbb\\Data\\": "src/project/fbFL/data"
     }

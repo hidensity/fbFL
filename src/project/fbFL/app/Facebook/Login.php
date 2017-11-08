@@ -2,9 +2,10 @@
 
 namespace Dbb\Facebook;
 
+use Dbb\AbstractClasses\SmartySetup;
 use Facebook\Facebook;
 
-class Login
+class Login extends SmartySetup
 {
     /** @var Facebook */
     protected $facebook;
@@ -14,6 +15,8 @@ class Login
      */
     public function __construct()
     {
-        echo 'Foo! Bar! Baz!';
+        parent::__construct('Facebook/Login');
+        $this->assign('foo', 'Foo!');
+        $this->render();
     }
 }
